@@ -1,0 +1,5 @@
+<template>
+</template>
+
+<style lang="less" src="profile.less"></style>
+<script lang="typescript" src="./profile.ts"></script>

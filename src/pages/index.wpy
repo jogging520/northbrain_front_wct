@@ -20,7 +20,7 @@
 
 <script>
   import wepy from 'wepy'
-  import testMixin from '../mixins/test'
+  import testMixin from '../shared/mixins/test'
 
   export default class Index extends wepy.page {
     config = {
