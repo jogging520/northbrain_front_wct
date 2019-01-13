@@ -1,5 +1,5 @@
 import wepy from 'wepy'
-let GeneralConstants = require('@/shared/constants/general/general-constants')
+let GeneralConstants = require('@/shared/constants/general/general.constants')
 
 const set = (key, value) => {
   wepy.setStorageSync(GeneralConstants.CONSTANT_COMMON_APPLICATION_NAME + key, value)

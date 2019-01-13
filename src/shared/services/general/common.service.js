@@ -1,6 +1,6 @@
-import TokenService from '@/shared/services/general/token-service'
-import CacheService from '@/shared/services/general/cache-service'
-let GeneralConstants = require('@/shared/constants/general/general-constants')
+import TokenService from '@/shared/services/general/token.service'
+import CacheService from '@/shared/services/general/cache.service'
+let GeneralConstants = require('@/shared/constants/general/general.constants')
 
 export default class CommonService {
   static setHeader(url) {

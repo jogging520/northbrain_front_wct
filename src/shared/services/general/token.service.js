@@ -1,5 +1,5 @@
-import CacheService from '@/shared/services/general/cache-service'
-let GeneralConstants = require('@/shared/constants/general/general-constants')
+import CacheService from '@/shared/services/general/cache.service'
+let GeneralConstants = require('@/shared/constants/general/general.constants')
 
 const get = () => {
   return CacheService.get(GeneralConstants.CONSTANT_COMMON_HTTP_PARAM_PUBLIC_TOKEN)
