@@ -19,6 +19,11 @@ module.exports = {
     less: {
       compress: prod
     },
+    typescript: {
+      "compilerOptions": {
+        "module": "system"
+      }
+    },
     /*sass: {
       outputStyle: 'compressed'
     },*/
